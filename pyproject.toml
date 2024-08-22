@@ -1,12 +1,11 @@
 [project]
 name = "ease-of-use-scripts"
-version = "0.0.1"
+version = "0.0.2"
 description = ""
 requires-python = ">=3.8,<4.0.0"
 dependencies = [
     "python-dotenv>=1.0.1",
     "rich>=13.7.1",
-    "emoji>=2.12.1",
 ]
 
 [tool.uv]
@@ -19,3 +18,6 @@ build-backend = "hatchling.build"
 [project.scripts]
 cqc = "cqc:main"
 setup = "setup_new_environment:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["ease_of_use_scripts"]
