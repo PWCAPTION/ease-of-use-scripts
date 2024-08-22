@@ -2,7 +2,7 @@
 name = "ease-of-use-scripts"
 version = "0.0.1"
 description = ""
-requires-python = ">=3.11"
+requires-python = ">=3.8,<4.0.0"
 dependencies = []
 
 [tool.uv]
