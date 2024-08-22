@@ -1,6 +1,6 @@
 [project]
 name = "ease-of-use-scripts"
-version = "0.0.6"
+version = "0.0.7"
 description = ""
 requires-python = ">=3.8,<4.0.0"
 dependencies = [
@@ -19,5 +19,5 @@ build-backend = "hatchling.build"
 packages = ["."]
 
 [project.scripts]
-cqc = "ease_of_use_scripts:cqc"
-setup = "ease_of_use_scripts:setup"
+cqc = "ease_of_use_scripts.cqc:main"
+setup = "ease_of_use_scripts.setup_new_environment:main"
