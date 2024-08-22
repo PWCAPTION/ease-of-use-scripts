@@ -1,5 +1,5 @@
 [project]
-name = "template-jfrog-pypi-package"
+name = "ease-of-use-scripts"
 version = "0.0.1"
 description = ""
 requires-python = ">=3.11"
