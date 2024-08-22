@@ -3,7 +3,9 @@ name = "ease-of-use-scripts"
 version = "0.0.1"
 description = ""
 requires-python = ">=3.8,<4.0.0"
-dependencies = []
+dependencies = [
+    "python-dotenv>=1.0.1",
+]
 
 [tool.uv]
 dev-dependencies = []
@@ -14,3 +16,4 @@ build-backend = "hatchling.build"
 
 [project.scripts]
 cqc = "cqc:main"
+setup = "setup_new_environment:main"
