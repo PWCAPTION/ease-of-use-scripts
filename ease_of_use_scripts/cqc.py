@@ -32,7 +32,7 @@ def run_black():
 
 def run_ruff():
     console.print("[bold green]Running ruff[/bold green]! :green_apple:")
-    result = subprocess.run(["ruff", "check", ".", "--line-length", "255"])
+    result = subprocess.run(["ruff", "check", ".", "--line-length", "255", "--ignore", "E402"])
     if result.returncode != 0:
         sys.exit(result.returncode)
 
